@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.slider{
+  height: 320px;
+  overflow: hidden;  
+}
+
+img{
+  width: 600px;  
+}
+
+li{
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+body{
+  font-family: 'Homemade Apple', cursive;
+  background-color: black;
+}
+
+h1{
+  text-align: center;
+  height: 2em;
+  color: white;
+}
+
+.carousel{
+  text-align: center;
+}
+
+.pagination li{
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+.fa-circle{
+  background-color: black;
+  border: none;
+  padding: 0.5em;
+}
+
+span.fa.fa-circle:hover{
+  background-color: black;
+  color: white;
+} 
+
+.left, .right{
+  margin-top: 1.5em;
+}
